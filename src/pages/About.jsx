@@ -6,7 +6,7 @@ import Footer from "../components/common/Footer";
 const About = () => {
   return (
     <>
-      <div className="px-4 md:px-8 lg:px-18 mb-8 md:mt-24 overflow-auto select-none">
+      <div className="px-4 md:px-8 lg:px-18 mb-8 md:mt-24 sm:mt-[6.5rem] overflow-auto select-none">
         <div className="space-y-8 max-w-7xl mx-auto opacity-100 transform-none">
           {/* header */}
           <div>
