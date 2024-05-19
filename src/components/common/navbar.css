@@ -1,0 +1,30 @@
+@media (min-width: 640px) {
+  .toggle_btn {
+    display: none;
+  }
+  .navbar > div {
+    display: flex;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar > div {
+    display: none;
+  }
+  .toggle_btn {
+    display: flex;
+    
+  }
+}
+
+.dropdown {
+  display: none;
+}
+
+.dropdown.open {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
