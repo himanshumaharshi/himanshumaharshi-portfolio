@@ -13,7 +13,7 @@ const TextAnimation = () => {
         ]}
         wrapper="span"
         speed={5}
-        style={{ fontSize: "3rem", display: "inline-block", animation: "ease"}}
+        style={{  display: "inline-block", animation: "ease"}}
         repeat={Infinity}
         cursor={false}
         

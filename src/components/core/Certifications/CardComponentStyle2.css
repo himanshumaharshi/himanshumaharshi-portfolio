@@ -126,3 +126,14 @@ p + p {
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
 }
+
+@media (max-width:640px) {
+  .card {
+    width: 27rem;
+    height: 18.9rem;
+  }
+  .card-info h1 {
+    font-size: 26px;
+  font-weight: 700;
+  }
+}

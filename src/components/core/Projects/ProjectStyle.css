@@ -33,3 +33,15 @@
 .card:hover .front-content p {
   opacity: 0;
 }
+
+@media (max-width:640px) {
+  .card-container {
+    width: 27rem;
+    height: 18.9rem;
+  }
+}
+@media (max-width:770px) {
+  .card-container {
+    margin-top: 2em;
+  }
+}

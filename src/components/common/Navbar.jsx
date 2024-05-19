@@ -10,7 +10,7 @@ const Navbar = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
   return (
-    <div className="absolute w-full z-10">
+    <div className="absolute w-full z-20">
       <div className="flex flex-row items-center justify-between sm:justify-between py-8 max-w-5xl mx-auto relative z-[100] px-8">
         <div className="hidden lg:flex w-full justify-center">
           <div className="flex flex-row space-x-8 items-center antialiased border px-4 py-2 rounded-2xl border-zinc-700/60 bg-zinc-800 ">
