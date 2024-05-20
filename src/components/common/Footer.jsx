@@ -8,7 +8,7 @@ import GithubSVG from "../SVG/GithubSVG";
 
 const Footer = () => {
   return (
-    <div className="text-white mt-[5rem]">
+    <div className="text-white mt-[3rem] sm:mt-[4rem]">
       <div className="border-t border-slate-900/5 py-10 max-w-6xl mx-auto px-8">
         {/* image and name */}
         <a
@@ -30,7 +30,7 @@ const Footer = () => {
         </a>
 
         {/* links */}
-        <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-4">
+        <div className="flex flex-col sm:flex-row sm:justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-4">
           <a href="/about" className="text-white text-sm relative">
             <span className="relative z-10 px-2 py-2 inline-block">About</span>
           </a>
@@ -52,11 +52,6 @@ const Footer = () => {
               Certifications
             </span>
           </a>
-          {/* <a href="/profiles" className="text-white text-sm relative">
-            <span className="relative z-10 px-2 py-2 inline-block">
-              Profiles
-            </span>
-          </a> */}
         </div>
 
         <p className="text-zinc-200 text-sm font-light text-center mt-8 border-t border-zinc-800 pt-4">
