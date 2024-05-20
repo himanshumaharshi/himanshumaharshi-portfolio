@@ -46,9 +46,9 @@ const Skills = () => {
                 </h2>
                 <div class="">
                   <img
-                    src="https://skillicons.dev/icons?i=mongo,mysql,vercel,gcp"
-                    width="550"
-                    height="550"
+                    src="https://skillicons.dev/icons?i=mongo,mysql,vercel,gcp,firebase"
+                    width="650"
+                    height="650"
                     alt="skill logo"
                   />
                 </div>
