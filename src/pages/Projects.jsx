@@ -13,7 +13,7 @@ const Projects = () => {
             </h1>
             <p className="mt-4 text-zinc-400 font-ubuntu tracking-tighter pb-6 border-b border-white/20"></p>
 
-            <div className="flex flex-wrap justify-center gap-8 pr-12">
+            <div className="flex flex-wrap justify-center gap-8 mt-4">
               <ProjectCard />
             </div>
           </div>
