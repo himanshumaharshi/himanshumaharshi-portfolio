@@ -59,7 +59,7 @@ const Navbar = () => {
             </a>
             <a
               href="http://rebrand.ly/himanshu-resume"
-              target="blank"
+              target="blank" rel="noreferrer"
               className="text-white text-sm relative"
             >
               <span className="relative z-10 px-2 py-2 inline-block">
@@ -123,7 +123,7 @@ const Navbar = () => {
               </a>
               <a
                 href="http://rebrand.ly/himanshu-resume"
-                target="blank"
+                target="blank" rel="noreferrer"
                 className="text-white text-sm relative"
               >
                 <span className="relative z-10 px-2 py-2 inline-block">

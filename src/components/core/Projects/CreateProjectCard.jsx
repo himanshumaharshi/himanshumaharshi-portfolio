@@ -20,7 +20,7 @@ const CreateProjectCard = ({ title, description, techStack, image, link }) => {
           <div class="content absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center gap-3 text-[#e8e8e8] rounded-md p-5">
             <p class="lg:text-4xl sm:text-sm md:text-2xl text-xs font-bold">
               {title}{" "}
-              <a href={link} target="_blank">
+              <a href={link} target="_blank" rel="noreferrer">
                 <BsLink45Deg className="inline" />
               </a>
             </p>

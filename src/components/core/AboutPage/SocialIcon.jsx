@@ -9,6 +9,7 @@ function SocialIcon({ href, ariaLabel, dataSocial }) {
         aria-label={ariaLabel}
         data-social={dataSocial}
         target="blank"
+        rel="noreferrer"
       >
         <div className="filled"></div>
         {getIcon(dataSocial)}{" "}

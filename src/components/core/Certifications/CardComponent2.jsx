@@ -60,7 +60,7 @@ const CardComponent2 = ({ dataImage, header, content, link }) => {
       ref={cardRef2}
     >
       <div
-        className="card relative w-[35rem] h-[20rem] overflow-hidden bg-[#333] rounded-xl"
+        className="card relative overflow-hidden bg-[#333] rounded-xl"
         style={cardStyle2}
       >
         <div
@@ -68,7 +68,7 @@ const CardComponent2 = ({ dataImage, header, content, link }) => {
           style={{ ...cardBgTransform2, ...cardBgImage2 }}
         ></div>
         <div className="card-info">
-          <h1>{header}{" "}<a href={link} target="_blank"><Link45deg/></a></h1>
+          <h1>{header}{" "}<a href={link} target="_blank" rel="noreferrer"><Link45deg/></a></h1>
           <span>
             {content}
           </span>

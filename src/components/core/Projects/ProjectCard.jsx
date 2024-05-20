@@ -64,15 +64,3 @@ const ProjectCard = () => {
 };
 
 export default ProjectCard;
-{/* <ProjectCardGenerator key={index} {...project} /> */}
-
-/*
-    <div className="flex items-center justify-center md:py-10 px-10">
-      <div className="w-max-7xl grid lg:grid-cols-2 gap-10 z-10 sm:grid-cols-1 md:grid-cols-1">
-        {projects.map((project, index) => (
-          <ProjectCardGenerator key={index} {...project} />
-        ))}
-      </div>
-    </div>
-
-*/
