@@ -50,8 +50,8 @@ const CardGenerator2 = () => {
       dataImage: INTERN,
     },
     {
-      header: "Ethical Hacking",
-      content: "Presented Research Paper titled ",
+      header: "Study on Ethical Hacking",
+      content: "Presented Research Paper",
       link: "https://drive.google.com/file/d/10JgdLTyBrhqZpqKvXzER5hdUxRvkOIsA/view?usp=drive_link",
       dataImage: RPEH,
     },
