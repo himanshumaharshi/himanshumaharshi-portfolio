@@ -33,7 +33,7 @@ const ProjectCard = () => {
       techStack:
         "Node.js, React.js, Express.js, Redux, TailwindCSS, MongoDB, React Router",
       image: REALESTATE,
-      link: "https://github.com/himanshumaharshi/mern-estate",
+      link: "https://mern-estate-qtff.onrender.com/",
     },
     {
       title: "Password Generator",
