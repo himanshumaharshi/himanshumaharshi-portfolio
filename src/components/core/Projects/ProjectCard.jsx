@@ -10,13 +10,13 @@ import CreateProjectCard from "./CreateProjectCard";
 const ProjectCard = () => {
   const projects = [
     {
-      title: "Ed Tech Platform",
+      title: "Tech Buddy",
       description:
-        "Study-Notion is a full-stack web-based EdTech application with features for posting, deleting, and updating videos. The backend is developed using Node.js, Express.js, Mongoose, and Node Modules. It includes user authentication and authorization to secure sensitive data, showcasing full-stack proficiency and best practices for a dynamic and robust website.",
+        "Tech Buddy is a full-stack web-based EdTech application with features for posting, deleting, and updating videos. The backend is developed using Node.js, Express.js, Mongoose, and Node Modules. It includes user authentication and authorization to secure sensitive data, showcasing full-stack proficiency and best practices for a dynamic and robust website.",
       techStack:
         "Node.js, React.js, Express.js, Redux, TailwindCSS, MongoDB, React Router",
       image: STUDYNOTION,
-      link: "https://github.com/himanshumaharshi/study-notion",
+      link: "https://tech-buddy-edtech.vercel.app/",
     },
     {
       title: "Weather App",
