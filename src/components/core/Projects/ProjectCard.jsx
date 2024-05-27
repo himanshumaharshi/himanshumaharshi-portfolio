@@ -1,6 +1,7 @@
 import React from "react";
 // import ProjectCardGenerator from "./ProjectCardGenerator";
-import STUDYNOTION from "../../../assets/Projects/study-notion.png";
+import TECHBUDDY from "../../../assets/Projects/tech-buddy.png";
+import CODEPILOT from "../../../assets/Projects/code-pilot.png";
 import REALESTATE from "../../../assets/Projects/real-estate.png";
 import WEATHER from "../../../assets/Projects/weather-app.png";
 import PASSWORD from "../../../assets/Projects/pass-gen.png";
@@ -15,8 +16,17 @@ const ProjectCard = () => {
         "Tech Buddy is a full-stack web-based EdTech application with features for posting, deleting, and updating videos. The backend is developed using Node.js, Express.js, Mongoose, and Node Modules. It includes user authentication and authorization to secure sensitive data, showcasing full-stack proficiency and best practices for a dynamic and robust website.",
       techStack:
         "Node.js, React.js, Express.js, Redux, TailwindCSS, MongoDB, React Router",
-      image: STUDYNOTION,
+      image: TECHBUDDY,
       link: "https://tech-buddy-edtech.vercel.app/",
+    },
+    {
+      title: "Code Pilot",
+      description:
+        "Code Pilot is a go-to platform for coding on-the-go! With support for multiple programming languages, seamless code execution, and instant feedback, this compiler empowers developers and learners alike to write and test code effortlessly. Say goodbye to installation and hello to coding convenience with my intuitive online compiler. Get ready to unleash your creativity and bring your ideas to life, all within a few clicks!",
+      techStack:
+        "Node.js, React.js, Express.js, TailwindCSS, Vercel, Render",
+      image: CODEPILOT,
+      link: "https://code-pilot-five.vercel.app/",
     },
     {
       title: "Weather App",
