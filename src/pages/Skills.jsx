@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/common/Footer";
+import GithubHistory from "../assets/himanshumaharshigithub.svg"
 
 const Skills = () => {
   return (
@@ -76,7 +77,8 @@ const Skills = () => {
             {/* github graph */}
             <section className="w-full mt-4 mb-4">
               <img
-                src="http://ghchart.rshah.org/himanshumaharshi"
+                src={GithubHistory}
+                // src="http://ghchart.rshah.org/himanshumaharshi"
                 height="1200"
                 width="1200"
                 alt="himanshu github chart"
