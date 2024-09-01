@@ -57,7 +57,7 @@ const Navbar = () => {
                 Certifications
               </span>
             </a>
-            <a
+{/*             <a
               href="http://rebrand.ly/himanshu-resume"
               target="blank" rel="noreferrer"
               className="text-white text-sm relative"
@@ -65,7 +65,7 @@ const Navbar = () => {
               <span className="relative z-10 px-2 py-2 inline-block">
                 Resume
               </span>
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -121,7 +121,7 @@ const Navbar = () => {
                   Certifications
                 </span>
               </a>
-              <a
+{/*               <a
                 href="http://rebrand.ly/himanshu-resume"
                 target="blank" rel="noreferrer"
                 className="text-white text-sm relative"
@@ -129,7 +129,7 @@ const Navbar = () => {
                 <span className="relative z-10 px-2 py-2 inline-block">
                   Resume
                 </span>
-              </a>
+              </a> */}
             </div>
           )}
         </div>
