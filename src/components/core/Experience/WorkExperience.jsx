@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import RenderExperienceList from "./RenderExperienceList";
 import RenderExperienceData from "./RenderExperienceData";
 import ARYALOGO from "../../../assets/CompanyLogo/Arya-logo.avif"
+import SWIGGYLOGO from "../../../assets/CompanyLogo/SWIGGYLOGO.png"
 
 const WorkExperience = () => {
   const experiences = [
