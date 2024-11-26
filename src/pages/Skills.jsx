@@ -23,7 +23,7 @@ const Skills = () => {
                 <h2 class="  pb-1 text-[#FF0090] text-2xl">Languages</h2>
                 <div class="">
                   <img
-                    src="https://skillicons.dev/icons?i=c,cpp,js,java,html,css"
+                    src="https://skillicons.dev/icons?i=c,cpp,js,go,java,html,css"
                     width="800"
                     height="800"
                     alt="skill logo"
@@ -34,7 +34,7 @@ const Skills = () => {
                 <h2 class="pb-1 text-[#FF0090] text-2xl">Frameworks</h2>
                 <div class="">
                   <img
-                    src="https://skillicons.dev/icons?i=react,nodejs,tailwind,redux,express,npm"
+                    src="https://skillicons.dev/icons?i=react,nodejs,prometheus,spring,kafka,redis,tailwind,redux,express,npm"
                     width="800"
                     height="800"
                     alt="skill logo"
@@ -47,7 +47,7 @@ const Skills = () => {
                 </h2>
                 <div class="">
                   <img
-                    src="https://skillicons.dev/icons?i=mongo,mysql,vercel,gcp,firebase"
+                    src="https://skillicons.dev/icons?i=mongo,mysql,postgres,dynamodb,vercel,gcp,firebase"
                     width="650"
                     height="650"
                     alt="skill logo"
@@ -58,7 +58,7 @@ const Skills = () => {
                 <h2 class="pb-1 text-[#FF0090] text-2xl">Tools</h2>
                 <div class="">
                   <img
-                    src="https://skillicons.dev/icons?i=git,github,postman,vscode,visualstudio,windows,linux,ps,ae,pr"
+                    src="https://skillicons.dev/icons?i=git,grafana,docker,github,postman"
                     width="800"
                     height="800"
                     alt="skill logo"
